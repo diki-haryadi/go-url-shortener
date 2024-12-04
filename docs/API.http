@@ -1,0 +1,15 @@
+###
+POST http://localhost:8080/api/v1/shorten
+Content-Type: application/json
+
+{
+  "url": "https://example.com",
+  "short": "custom123",
+  "expiry": 3600
+}
+
+###
+
+GET http://localhost:8080/custom123
+Content-Type: application/json
+###
