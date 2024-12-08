@@ -15,8 +15,8 @@ A high-performance URL shortening service built with Go-kit, featuring Redis cac
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/urlshortener.git
-cd urlshortener
+git clone https://github.com/diki-haryadi/go-url-shortener
+cd go-url-shortener
 ```
 
 2. Start the services
@@ -31,7 +31,7 @@ make docker-up
 ## Tech Stack
 
 - Go 1.21+
-- Go-kit (Microservices toolkit)
+- Fiber
 - Redis (Primary database and caching)
 - Docker & Docker Compose
 - Make (Build automation)
